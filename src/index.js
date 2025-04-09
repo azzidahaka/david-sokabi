@@ -8,13 +8,14 @@ import { About } from './components/about/about';
 import { Work } from './components/work/work';
 import { Contact } from './components/contact/contact';
 import { BrowserRouter } from 'react-router-dom';
+import David from './assets/img/David.png';
 const Portfolio = () => {
   return (
     <BrowserRouter>
       <header className='page-header'>
         <img
-          src='./img/David.png'
-          alt=''
+          src={David}
+          alt='David'
           className='page-header__item'
         />
         <nav className='main-navigation page-header__item'>
