@@ -8,7 +8,6 @@ import { About } from './components/about/about';
 import { Work } from './components/work/work';
 import { Contact } from './components/contact/contact';
 import { BrowserRouter } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
 const Portfolio = () => {
   return (
     <BrowserRouter>
