@@ -1,8 +1,55 @@
-import { Row } from 'react-bootstrap';
+import { Button, Form, Row, Col, Card, CardBody } from 'react-bootstrap';
 export const Contact = () => {
   return (
     <Row>
-      <h1>Contact me</h1>
+      <h1 className='text-center'>Contact me</h1>
+      <Col className='d-flex justify-content-center align-items-center'>
+        <Card className='contact'>
+          <CardBody>
+            <Form>
+              <Form.Group controlId='formUsername'>
+                <Form.Label> Username:</Form.Label>
+                <Form.Control
+                  type='text'
+                  //   value={username}
+                  //   onChange={(e) => setUsername(e.target.value)} //set username state with user input
+                  required
+                  minLength='3'
+                />
+              </Form.Group>
+              <Form.Group controlId='formPassword'>
+                <Form.Label> Password:</Form.Label>
+                <Form.Control
+                  type='password'
+                  //   value={password}
+                  //   onChange={(e) => setPassword(e.target.value)}
+                  required
+                />
+              </Form.Group>
+              <Form.Group controlId='formBirthday'>
+                <Form.Label> Birthday:</Form.Label>
+                <Form.Control
+                  type='date'
+                  //   value={birthday}
+                  //   onChange={(e) => setBirthday(e.target.value)}
+                  required
+                />
+              </Form.Group>
+              <Form.Group controlId='formEmail'>
+                <Form.Label> Email:</Form.Label>
+                <Form.Control
+                  type='email'
+                  //   value={email}
+                  //   onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </Form.Group>
+              <Button type='submit'>Submit</Button>
+            </Form>
+          </CardBody>
+        </Card>
+      </Col>
+      {/* <h1>Contact me</h1>
       <div>
         <a href='mailto:ds@gamil.com'>DavidSokabi@gmail.com</a>
       </div>
@@ -57,7 +104,7 @@ export const Contact = () => {
             />
           </a>
         </div>
-      </footer>
+      </footer> */}
     </Row>
   );
 };

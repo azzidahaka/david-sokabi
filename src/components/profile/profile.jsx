@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import MotionDiv from '../MotionDiv';
 import IntroPic from '../../assets/img/IntroPic.jpg';
 export const Profile = () => {
   return (
