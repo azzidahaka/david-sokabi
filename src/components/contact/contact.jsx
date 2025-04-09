@@ -5,48 +5,53 @@ export const Contact = () => {
       <h1 className='text-center'>Contact me</h1>
       <Col className='d-flex justify-content-center align-items-center'>
         <Card className='contact'>
-          <CardBody>
+          <Card.Body>
             <Form>
-              <Form.Group controlId='formUsername'>
-                <Form.Label> Username:</Form.Label>
-                <Form.Control
-                  type='text'
-                  //   value={username}
-                  //   onChange={(e) => setUsername(e.target.value)} //set username state with user input
-                  required
-                  minLength='3'
-                />
-              </Form.Group>
-              <Form.Group controlId='formPassword'>
-                <Form.Label> Password:</Form.Label>
-                <Form.Control
-                  type='password'
-                  //   value={password}
-                  //   onChange={(e) => setPassword(e.target.value)}
-                  required
-                />
-              </Form.Group>
-              <Form.Group controlId='formBirthday'>
-                <Form.Label> Birthday:</Form.Label>
-                <Form.Control
-                  type='date'
-                  //   value={birthday}
-                  //   onChange={(e) => setBirthday(e.target.value)}
-                  required
-                />
-              </Form.Group>
-              <Form.Group controlId='formEmail'>
-                <Form.Label> Email:</Form.Label>
+              {/* Email Field */}
+              <Form.Group
+                controlId='formEmail'
+                className='mb-3'>
+                <Form.Label>Email:</Form.Label>
                 <Form.Control
                   type='email'
-                  //   value={email}
-                  //   onChange={(e) => setEmail(e.target.value)}
+                  placeholder='Enter your email'
                   required
                 />
               </Form.Group>
-              <Button type='submit'>Submit</Button>
+
+              {/* Phone Number Field */}
+              <Form.Group
+                controlId='formPhone'
+                className='mb-3'>
+                <Form.Label>Phone Number:</Form.Label>
+                <Form.Control
+                  type='tel'
+                  placeholder='Enter your phone number'
+                  required
+                />
+              </Form.Group>
+
+              {/* Message Field */}
+              <Form.Group
+                controlId='formMessage'
+                className='mb-3'>
+                <Form.Label>Message:</Form.Label>
+                <Form.Control
+                  as='textarea'
+                  rows={4}
+                  placeholder='Enter your message'
+                  required
+                />
+              </Form.Group>
+
+              {/* Submit Button */}
+              <Button
+                type='submit'
+                className='w-100'>
+                Submit
+              </Button>
             </Form>
-          </CardBody>
+          </Card.Body>
         </Card>
       </Col>
       {/* <h1>Contact me</h1>
