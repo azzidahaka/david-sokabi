@@ -9,8 +9,8 @@ export const About = () => {
         inViewControl={{ opacity: 1, x: 0 }} // Slide in
         outViewControl={{ opacity: 0, x: '-10vw' }} // Slide out while partially visible
         transition={{ duration: 0.4 }}>
-        <h1 className='align-text'>About Me</h1>
-        <p>
+        <h1 className='align-text fs-1 fw-bolder'>About Me</h1>
+        <p className='align-text fs-4'>
           I was born in Lagos, Nigeria, and am currently based in Canada. My journey into tech began at a
           young age, sparked by a childhood fascination with the world of technology, especially after
           watching <em>Spy Kids</em>. What started as curiosity quickly turned into a passion, and I decided
@@ -25,7 +25,7 @@ export const About = () => {
         inViewControl={{ opacity: 1, x: '0vw' }}
         outViewControl={{ opacity: 0, x: '10vw' }}>
         <h2>Background and Career Path</h2>
-        <p>
+        <p className='align-text fs-4'>
           Although I initially envisioned myself as a mechanical engineer, my love for technology led me to
           pursue a career in full-stack web development. I’ve gained significant experience working with
           JavaScript, React, Node.js, Python, and MongoDB, honing my skills through hands-on projects that
@@ -33,7 +33,7 @@ export const About = () => {
           environments where I can tackle complex challenges and create solutions that truly make a
           difference.
         </p>
-        <p>
+        <p className='align-text fs-4'>
           What excites me about this field is the endless possibilities for innovation. I find joy in
           problem-solving and in building applications that are not only functional but also intuitive and
           enjoyable to use. Whether I’m developing an API, optimizing code, or designing the client-side of a
@@ -48,7 +48,7 @@ export const About = () => {
         outViewControl={{ opacity: 0, x: '-10vw' }} // Slide out while partially visible
         transition={{ duration: 0.4 }}>
         <h2>My Approach to Work</h2>
-        <p>
+        <p className='align-text fs-4'>
           When it comes to my approach to work, I value collaboration and effective communication. I believe
           that the best results come from working together, sharing ideas, and supporting each other. This was
           a key aspect of my previous role as a Technical Advisor, where I worked closely with customers to
@@ -64,7 +64,7 @@ export const About = () => {
         outViewControl={{ opacity: 0, x: '10vw' }} // Slide out while partially visible
         transition={{ duration: 0.4 }}>
         <h2>Outside of Work</h2>
-        <p>
+        <p className='align-text fs-4'>
           Outside of work, I’m passionate about gaming and reading —especially fantasy and sci-fi genres.
           These interests fuel my imagination and creativity, helping me approach coding challenges with a
           fresh perspective.
@@ -78,7 +78,7 @@ export const About = () => {
         outViewControl={{ opacity: 0, x: '-10vw' }} // Slide out while partially visible
         transition={{ duration: 0.4 }}>
         <h2>Looking Ahead</h2>
-        <p>
+        <p className='align-text fs-4'>
           As I continue to grow as a developer, I’m looking for opportunities that will challenge me, allow me
           to learn from talented teams, and enable me to contribute to impactful projects. Whether in a{' '}
           full-time, part-time, or freelance capacity, I’m always eager to collaborate and create innovative

@@ -20,8 +20,8 @@ export const Profile = () => {
           <p className='intro'>
             I’m passionate about building clean, user-focused web apps that connect frontend design with
             powerful backend logic. With a background in tech support and a knack for solving problems, I love
-            creating smooth, intuitive experiences. When I’m not coding, you’ll find me gaming, reading
-            fantasy novels, or diving into the latest tech trends.
+            creating smooth, intuitive experiences. When I’m not coding, you’ll find me diving into the latest tech trends, reading
+            fantasy novels, or gaming.
           </p>
         </Col>
       </Row>

@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 
 const MotionDiv = ({
   threshold,
+  rootMargin = '0px 0px -50px 0px',
   children,
   inViewControl,
   outViewControl,
@@ -13,7 +14,7 @@ const MotionDiv = ({
   className,
 }) => {
   const controls = useAnimation();
-  const [ref, inView] = useInView({ threshold: threshold });
+  const [ref, inView] = useInView({ threshold: threshold,  rootMargin: rootMargin  });
 
   useEffect(() => {
     if (inView) {
@@ -39,6 +40,7 @@ export default MotionDiv;
 
 MotionDiv.propTypes = {
   threshold: PropTypes.number,
+  rootMargin: PropTypes.string,
   children: PropTypes.node.isRequired,
   inViewControl: PropTypes.object,
   outViewControl: PropTypes.object,
