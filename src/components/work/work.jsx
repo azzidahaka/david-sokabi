@@ -1,10 +1,18 @@
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import MotionDiv from '../MotionDiv';
 import { projects } from '../projects';
 export const Work = () => {
   return (
     <Row className='section'>
-      <h1 className='text-center'>Work</h1>
+      {' '}
+      <MotionDiv
+        threshold={0.5} // Trigger when 20% of the element is visible
+        initial={{ opacity: 0, x: '-20vw' }}
+        inViewControl={{ opacity: 1, x: 0 }} // Slide in
+        outViewControl={{ opacity: 0, x: '-10vw' }} // Slide out while partially visible
+        transition={{ duration: 0.4 }}>
+        <h1 className='text-center'>Work</h1>
+      </MotionDiv>
       {projects.map((project, idx) => (
         <Col
           className='grid'
@@ -18,17 +26,17 @@ export const Work = () => {
             inViewControl={{ opacity: 1, x: 0 }} // Slide in
             outViewControl={{ opacity: 0, x: idx % 2 === 0 ? '-20vw' : '20vw' }} // Slide out while partially visible
             transition={{ duration: 0.4 }}
-            className='project'>
+            className='project vstack gap-4 px-4 py-4 align-items-center'>
             <h2>{project.title}</h2>
             <img
               src={project.image}
               className='project-img'
               alt={project.alt}
             />
-            <p>{project.description}</p>
-            <div className='vstack align-items-center'>
-              <a href={project.links.github}>See project on GitHub</a>
-              <a href={project.links.liveDemo}>Live Demo</a>
+            <p className='fs-5'>{project.description}</p>
+            <div className='vstack gap-1 align-items-center '>
+              <Button href={project.links.github}>See project on GitHub</Button>
+              <Button href={project.links.liveDemo}>Live Demo</Button>
             </div>
           </MotionDiv>
         </Col>

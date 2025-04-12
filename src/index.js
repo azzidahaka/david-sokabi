@@ -8,7 +8,7 @@ import { About } from './components/about/about';
 import { Work } from './components/work/work';
 import { Contact } from './components/contact/contact';
 import { BrowserRouter } from 'react-router-dom';
-import David from './assets/img/David.png';
+import David from './assets/img/Davidin.png';
 const Portfolio = () => {
   return (
     <BrowserRouter>

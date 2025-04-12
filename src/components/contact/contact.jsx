@@ -126,7 +126,7 @@ export const Contact = () => {
                 {/* Email Field */}
                 <Form.Group
                   controlId='formEmail'
-                  className='mb-3'>
+                  className='mb-3 custom-input'>
                   <Form.Label>Email:</Form.Label>
                   <Form.Control
                     type='email'
@@ -139,7 +139,7 @@ export const Contact = () => {
                 {/* Phone Number Field */}
                 <Form.Group
                   controlId='formPhone'
-                  className='mb-3'>
+                  className='mb-3 custom-input'>
                   <Form.Label>Phone Number:</Form.Label>
                   <Form.Control
                     type='tel'
@@ -152,7 +152,7 @@ export const Contact = () => {
                 {/* Message Field */}
                 <Form.Group
                   controlId='formMessage'
-                  className='mb-3'>
+                  className='mb-3 custom-input'>
                   <Form.Label>Message:</Form.Label>
                   <Form.Control
                     as='textarea'
