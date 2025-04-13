@@ -1,9 +1,16 @@
 import { Row, Col, Button } from 'react-bootstrap';
 import MotionDiv from '../MotionDiv';
 import { projects } from '../projects';
+import { useNavigate, Link } from 'react-router-dom';
+import { MyFlixCaseStudy } from './myflixcasestudy';
+
 export const Work = () => {
+  const navigate = useNavigate();
+
   return (
-    <Row id="work" className='section'>
+    <Row
+      id='work'
+      className='section'>
       {' '}
       <MotionDiv
         threshold={0.5} // Trigger when 20% of the element is visible
@@ -37,6 +44,19 @@ export const Work = () => {
             <div className='vstack gap-1 align-items-center '>
               <Button href={project.links.github}>See project on GitHub</Button>
               <Button href={project.links.liveDemo}>Live Demo</Button>
+              {project.title === 'myFlix-Client' && (
+                <Button onClick={() => navigate('/myflix-casestudy')}>Case Study</Button>
+              )}
+              {project.title === 'MyFlix' && (
+                <>
+                  <Button
+                    href='#myflix-case-study'
+                    onClick={() => (window.location.href = '/myflixcasestudy')}>
+                    View MyFlix Case Study
+                  </Button>
+                  <Button href='#myflix-case-study'>Case Study</Button>
+                </>
+              )}
             </div>
           </MotionDiv>
         </Col>
