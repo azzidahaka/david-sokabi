@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bb29138a.css",
-    "main.js": "/portfolio/static/js/main.bcbfd7dc.js",
-    "static/media/IntroPic.jpg": "/portfolio/static/media/IntroPic.f955021f641395dcd842.jpg",
-    "static/media/myflix.png": "/portfolio/static/media/myflix.785ead06a92418b25d86.png",
-    "static/media/large.png": "/portfolio/static/media/large.208a3e122f9e5f8aecc3.png",
-    "static/media/angular.png": "/portfolio/static/media/angular.6c6ea3a1ce5d8f3affcd.png",
-    "static/media/medium.png": "/portfolio/static/media/medium.7189d60b87b254e0dd62.png",
-    "static/media/small.png": "/portfolio/static/media/small.2b0cafd482610b51a96d.png",
-    "static/media/Davidin.png": "/portfolio/static/media/Davidin.170f3812525ad323ade1.png",
-    "static/media/movieapi.png": "/portfolio/static/media/movieapi.f89a301fa452843e5420.png",
-    "static/media/auth.png": "/portfolio/static/media/auth.364234e532b23ba7b698.png",
-    "static/media/meet.png": "/portfolio/static/media/meet.20e7f874e002f0934417.png",
-    "static/media/movieInfo.png": "/portfolio/static/media/movieInfo.aaf5f94e84063e7017c6.png",
-    "static/media/userInfo.png": "/portfolio/static/media/userInfo.5822a218a4a46301a63d.png",
-    "static/media/pokedex.png": "/portfolio/static/media/pokedex.29c5bdaf9bdc706f01a4.png",
-    "static/media/todo.png": "/portfolio/static/media/todo.275e6d9b7596161006e0.png",
-    "static/media/github.svg": "/portfolio/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
-    "index.html": "/portfolio/index.html",
-    "static/media/linked-in.svg": "/portfolio/static/media/linked-in.55fb388c4c9df6986ca32fe64a60414a.svg",
-    "static/media/x.svg": "/portfolio/static/media/x.6e8add35b83a0c2f6d02f0667f499083.svg",
-    "main.bb29138a.css.map": "/portfolio/static/css/main.bb29138a.css.map",
-    "main.bcbfd7dc.js.map": "/portfolio/static/js/main.bcbfd7dc.js.map"
+    "main.css": "/david-sokabi/static/css/main.bb29138a.css",
+    "main.js": "/david-sokabi/static/js/main.34a7b8ea.js",
+    "static/media/IntroPic.jpg": "/david-sokabi/static/media/IntroPic.f955021f641395dcd842.jpg",
+    "static/media/myflix.png": "/david-sokabi/static/media/myflix.785ead06a92418b25d86.png",
+    "static/media/large.png": "/david-sokabi/static/media/large.208a3e122f9e5f8aecc3.png",
+    "static/media/angular.png": "/david-sokabi/static/media/angular.6c6ea3a1ce5d8f3affcd.png",
+    "static/media/medium.png": "/david-sokabi/static/media/medium.7189d60b87b254e0dd62.png",
+    "static/media/small.png": "/david-sokabi/static/media/small.2b0cafd482610b51a96d.png",
+    "static/media/Davidin.png": "/david-sokabi/static/media/Davidin.170f3812525ad323ade1.png",
+    "static/media/movieapi.png": "/david-sokabi/static/media/movieapi.f89a301fa452843e5420.png",
+    "static/media/auth.png": "/david-sokabi/static/media/auth.364234e532b23ba7b698.png",
+    "static/media/meet.png": "/david-sokabi/static/media/meet.20e7f874e002f0934417.png",
+    "static/media/movieInfo.png": "/david-sokabi/static/media/movieInfo.aaf5f94e84063e7017c6.png",
+    "static/media/userInfo.png": "/david-sokabi/static/media/userInfo.5822a218a4a46301a63d.png",
+    "static/media/pokedex.png": "/david-sokabi/static/media/pokedex.29c5bdaf9bdc706f01a4.png",
+    "static/media/todo.png": "/david-sokabi/static/media/todo.275e6d9b7596161006e0.png",
+    "static/media/github.svg": "/david-sokabi/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
+    "index.html": "/david-sokabi/index.html",
+    "static/media/linked-in.svg": "/david-sokabi/static/media/linked-in.55fb388c4c9df6986ca32fe64a60414a.svg",
+    "static/media/x.svg": "/david-sokabi/static/media/x.6e8add35b83a0c2f6d02f0667f499083.svg",
+    "main.bb29138a.css.map": "/david-sokabi/static/css/main.bb29138a.css.map",
+    "main.34a7b8ea.js.map": "/david-sokabi/static/js/main.34a7b8ea.js.map"
   },
   "entrypoints": [
     "static/css/main.bb29138a.css",
-    "static/js/main.bcbfd7dc.js"
+    "static/js/main.34a7b8ea.js"
   ]
 }
