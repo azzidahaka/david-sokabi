@@ -2,7 +2,9 @@ import { Row, Card, Button } from 'react-bootstrap';
 import MotionDiv from '../MotionDiv';
 export const About = () => {
   return (
-    <Row className='section about  justify-content-center align-items-center text-center '>
+    <Row
+      id="about"
+      className='section about  justify-content-center align-items-center text-center '>
       <MotionDiv
         threshold={0.5} // Trigger when 20% of the element is visible
         initial={{ opacity: 0, x: '-20vw' }}
@@ -11,7 +13,7 @@ export const About = () => {
         transition={{ duration: 0.4 }}>
         <h1 className='align-text fs-1 fw-bolder'>About Me</h1>
         <p className='align-text fs-5'>
-          I was born in Lagos, Nigeria, and am currently based in Canada. My journey into tech began at a
+          I was born in Lagos, Nigeria, and i'm currently based in Canada. My journey into tech began at a
           young age, sparked by a childhood fascination with the world of technology, especially after
           watching <em>Spy Kids</em>. What started as curiosity quickly turned into a passion, and I decided
           to explore this further when my brother introduced me to CorelDRAW and Python. The joy of creating

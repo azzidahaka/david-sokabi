@@ -3,7 +3,7 @@ import MotionDiv from '../MotionDiv';
 import { projects } from '../projects';
 export const Work = () => {
   return (
-    <Row className='section'>
+    <Row id="work" className='section'>
       {' '}
       <MotionDiv
         threshold={0.5} // Trigger when 20% of the element is visible

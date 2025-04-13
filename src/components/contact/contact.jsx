@@ -98,7 +98,7 @@ export const Contact = () => {
   }
 
   return (
-    <Row>
+    <Row id='contact'>
       <MotionDiv
         threshold={0.5}
         initial={{ opacity: 0, x: '-20vw' }}

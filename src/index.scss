@@ -13,7 +13,6 @@
   --visited-link: #9c1acf;
   --selected-link: #489c79;
   --h-font-weight: 700;
-  // overflow-x: hidden; /* Prevent horizontal scrolling */
   --button-color: #343a40;
   --form-color: #e9ecef;
 }
@@ -47,9 +46,9 @@ button {
   border-color: var(--button-color);
   transition: background-color 0.1s ease, border-color 0.3s ease;
 }
-.btn:hover{
-  background-color: #212529; ;
-  border-color:#ffffff;
+.btn:hover {
+  background-color: #212529;
+  border-color: #ffffff;
   transition-delay: 0.1s;
 }
 /* style for header */
@@ -64,31 +63,78 @@ button {
   top: 0; /* Sticks the navbar to the top of the viewport */
   z-index: 1000;
 }
-.page-header a{
- color: #ffffff;
-}
-.page-header img {
-  flex: 0 1;
-  height: 50px;
-  width: 100px;
-  align-self: flex-start;
-  margin: 10px;
+.page-header a {
+  color: #ffffff;
 }
 
-.navigation-list {
-  display: flex;
-  flex-wrap: wrap;
+.navbar {
+  background-color: var(--background-header) !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--white) !important;
+}
+
+.nav-link {
+  color: var(--white) !important;
+  position: relative; /* Ensure pseudo-elements are positioned relative to the link */
+  cursor: pointer; /* Change cursor to pointer on hover */
+
+  &:hover {
+    color: var(--secondary-color) !important; /* Change text color on hover */
+  }
+
+  &::before,
+  &::after {
+    content: ''; /* Add empty content for pseudo-elements */
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    opacity: 0;
+    transition: all 0.3s ease; /* Smooth transition for animation */
+  }
+
+  &::before {
+    top: 0; /* Position at the top of the link */
+    transform: translateY(10px); /* Start slightly below the link */
+  }
+
+  &::after {
+    bottom: 0; /* Position at the bottom of the link */
+    transform: translateY(-10px); /* Start slightly above the link */
+  }
+
+  &:hover::before,
+  &:hover::after {
+    opacity: 1; /* Make the pseudo-elements visible */
+    transform: translateY(0); /* Move into position */
+  }
+}
+
+.navbar img {
+  flex: 0 1;
+  height: 40px;
   width: auto;
-  padding: 0;
-  list-style: none;
+  align-self: flex-start;
 }
-.navigation-list__item {
-  margin: 10px;
-  text-decoration: none;
-  color: var(--black);
-  position: relative;
-  white-space: nowrap;
-}
+// .navigation-list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   width: auto;
+//   padding: 0;
+//   list-style: none;
+// }
+// .navigation-list__item {
+//   margin: 10px;
+//   text-decoration: none;
+//   color: var(--black);
+//   position: relative;
+//   white-space: nowrap;
+// }
 
 .section {
   min-height: calc(100vh - 75px);
@@ -114,8 +160,8 @@ button {
 //   line-height: 1.6; /* Optional: Improve readability */
 // }
 
-.container{
-  background-color:var( --background-section);
+.container {
+  background-color: var(--background-section);
 }
 
 /* grid fallback */
@@ -130,7 +176,6 @@ button {
   border-radius: 5%;
   color: white;
 }
-
 
 .project h2 {
   // font-size: 2rem;
@@ -157,7 +202,6 @@ button {
   background-color: var(--form-color);
 }
 
-
 a:hover,
 a:focus {
   /* No underlining when hovering over a link */
@@ -170,32 +214,32 @@ a:active {
 }
 
 /* Transformation to make the .navigation-list__item borders move outwards when hovered */
-.navigation-list__item::before,
-.navigation-list__item::after {
-  position: absolute;
-  left: 0px;
-  width: 100%;
-  height: 2px;
-  background: white;
-  opacity: 0;
-  transition: all 0.3s;
-}
+// .nav-link::before,
+// .nav-link::after {
+//   position: absolute;
+//   left: 0px;
+//   width: 100%;
+//   height: 2px;
+//   background: white;
+//   opacity: 0;
+//   transition: all 0.3s;
+// }
 
-.navigation-list__item::before {
-  top: 0px;
-  transform: translateY(10px);
-}
+// .nav-link::before {
+//   top: 0px;
+//   transform: translateY(10px);
+// }
 
-.navigation-list__item::after {
-  bottom: -2px;
-  transform: translateY(-10px);
-}
+// .nav-link::after {
+//   bottom: -2px;
+//   transform: translateY(-10px);
+// }
 
-.navigation-list__item:hover::before,
-.navigation-list__item:hover::after {
-  opacity: 1;
-  transform: translateY(0px);
-}
+// .nav-link:hover::before,
+// .nav-link:hover::after {
+//   opacity: 1;
+//   transform: translateY(0px);
+// }
 /* media queries for contact submit button for smallscreens
 * set dotenv for emailjs
 *dont forget tab pictures
