@@ -10,7 +10,7 @@ import { About } from './components/about/about';
 import { Work } from './components/work/work';
 import { Contact } from './components/contact/contact';
 import { NavigationBar } from './components/navigationbar/navigationbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { MyFlixCaseStudy } from './components/work/myflixcasestudy';
 
 // Setting up the Portfolio component with routing and navigation
