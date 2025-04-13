@@ -2,7 +2,7 @@
   "name": "david-sokabi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://azzidahaka.github.io/david-sokabi",
+  "homepage": "https://azzidahaka.github.io/david-sokabi/",
   "dependencies": {
     "bootstrap": "^5.3.5",
     "emailjs-com": "^3.2.0",
