@@ -1,0 +1,98 @@
+body {
+  background-color: #ffffff;
+}
+input,
+select,
+button {
+  font-family: system-ui;
+}
+h2 {
+  text-align: center;
+}
+p,
+li {
+  font-size: 1.2rem;
+}
+.case-container {
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: #e9ecef;
+}
+.row {
+  margin-bottom: 20px;
+}
+
+.row img {
+  max-height: 400px;
+  margin: 20px;
+}
+.case-study {
+  margin: 2rem;
+  //   line-height: 1.6;
+}
+
+.case-study section {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 2rem;
+}
+
+.case-study section:last-child {
+  border-bottom: none;
+}
+.case-study h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 1.5rem;
+}
+
+.case-study h2 {
+  font-size: 2rem;
+  color: #495057;
+  margin-bottom: 1rem;
+}
+
+.case-study img {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.case-study .highlight {
+  background-color: #e9ecef;
+  padding: 1rem;
+  border-left: 4px solid #357b70;
+  margin-bottom: 1rem;
+}
+.myflix img {
+  max-width: 90%;
+}
+@media (max-width: 768px) {
+  .case-study h1 {
+    font-size: 2rem;
+  }
+
+  .case-study img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.case-study h1,
+.case-study h2 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

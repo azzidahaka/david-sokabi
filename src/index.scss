@@ -66,6 +66,10 @@ button {
 .page-header a {
   color: #ffffff;
 }
+h1,
+h2 {
+  color: #343a40;
+}
 
 .navbar {
   background-color: var(--background-header) !important;
@@ -124,8 +128,10 @@ button {
 
 .section {
   min-height: calc(100vh - 75px);
-  // border: 1px solid black;
 }
+// .section:last-child {
+//   border-bottom: none;
+// }
 
 .profile__portrait {
   width: 100%;
