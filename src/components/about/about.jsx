@@ -98,7 +98,7 @@ export const About = () => {
         outViewControl={{ opacity: 0, x: '10vw' }} // Slide out while partially visible
         transition={{ duration: 0.4 }}>
         <Button
-          href='/David_Sokabi_Resume.pdf'
+          href='/david-sokabi/David_Sokabi_Resume.pdf'
           className=' align-text'
           download
           style={{
