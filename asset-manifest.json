@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/david-sokabi/static/css/main.bb29138a.css",
-    "main.js": "/david-sokabi/static/js/main.34a7b8ea.js",
+    "main.js": "/david-sokabi/static/js/main.d89dfa57.js",
     "static/media/IntroPic.jpg": "/david-sokabi/static/media/IntroPic.f955021f641395dcd842.jpg",
     "static/media/myflix.png": "/david-sokabi/static/media/myflix.785ead06a92418b25d86.png",
     "static/media/large.png": "/david-sokabi/static/media/large.208a3e122f9e5f8aecc3.png",
@@ -21,10 +21,10 @@
     "static/media/linked-in.svg": "/david-sokabi/static/media/linked-in.55fb388c4c9df6986ca32fe64a60414a.svg",
     "static/media/x.svg": "/david-sokabi/static/media/x.6e8add35b83a0c2f6d02f0667f499083.svg",
     "main.bb29138a.css.map": "/david-sokabi/static/css/main.bb29138a.css.map",
-    "main.34a7b8ea.js.map": "/david-sokabi/static/js/main.34a7b8ea.js.map"
+    "main.d89dfa57.js.map": "/david-sokabi/static/js/main.d89dfa57.js.map"
   },
   "entrypoints": [
     "static/css/main.bb29138a.css",
-    "static/js/main.34a7b8ea.js"
+    "static/js/main.d89dfa57.js"
   ]
 }
