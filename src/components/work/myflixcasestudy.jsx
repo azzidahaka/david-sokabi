@@ -1,3 +1,7 @@
+// Component for the MyFlix case study
+// Provides an overview, challenges, and outcomes of the MyFlix project
+// Uses React-Bootstrap for layout and custom SCSS for styling
+
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import MyFlix from '../../assets/img/myflix.png';

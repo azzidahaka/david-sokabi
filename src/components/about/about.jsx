@@ -1,3 +1,7 @@
+// About component for the portfolio
+// Displays information about the developer's background, career, and interests
+// Uses MotionDiv for animations and React-Bootstrap for layout
+
 import { Row, Button } from 'react-bootstrap';
 import MotionDiv from '../MotionDiv';
 export const About = () => {
@@ -6,7 +10,7 @@ export const About = () => {
       id='about'
       className='section about  justify-content-center align-items-center text-center '>
       <MotionDiv
-        threshold={0.5} // Trigger when 20% of the element is visible
+        threshold={0.5} // Trigger when 50% of the element is visible
         initial={{ opacity: 0, x: '-20vw' }}
         inViewControl={{ opacity: 1, x: 0 }} // Slide in
         outViewControl={{ opacity: 0, x: '-10vw' }} // Slide out while partially visible

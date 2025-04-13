@@ -35,7 +35,6 @@ body {
 }
 
 input,
-texture,
 select,
 button {
   font-family: system-ui;
@@ -186,7 +185,3 @@ a:active {
   color: var(--selected-link);
 }
 
-/* media queries for contact submit button for smallscreens
-* set dotenv for emailjs
-*dont forget tab pictures
-*/

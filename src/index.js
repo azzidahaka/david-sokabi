@@ -1,3 +1,5 @@
+// Main entry point for the React application
+// Importing necessary libraries and components
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,6 +13,7 @@ import { NavigationBar } from './components/navigationbar/navigationbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { MyFlixCaseStudy } from './components/work/myflixcasestudy';
 
+// Setting up the Portfolio component with routing and navigation
 const Portfolio = () => {
   return (
     <Router>
@@ -38,6 +41,7 @@ const Portfolio = () => {
   );
 };
 
+// Rendering the Portfolio component into the root DOM element
 const container = document.querySelector('#root');
 const root = createRoot(container);
 root.render(<Portfolio />);

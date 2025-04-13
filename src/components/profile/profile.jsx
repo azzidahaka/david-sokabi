@@ -1,6 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import IntroPic from '../../assets/img/IntroPic.jpg';
+
+// Profile component for the portfolio
+// Displays an introduction and a brief overview of the developer
+// Uses React-Bootstrap for layout and styling
 export const Profile = () => {
   return (
     <Row

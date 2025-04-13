@@ -4,6 +4,9 @@ import { projects } from '../projects';
 import { useNavigate, Link } from 'react-router-dom';
 import { MyFlixCaseStudy } from './myflixcasestudy';
 
+// Work component for the portfolio
+// Displays a list of projects with their details and links
+// Uses MotionDiv for animations and React-Bootstrap for layout
 export const Work = () => {
   const navigate = useNavigate();
 

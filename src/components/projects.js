@@ -1,9 +1,14 @@
+// File containing project data for the portfolio
+// Each project includes title, image, description, and links
+// Exporting the projects array for use in other components
+
 import Todo from '../assets/img/todo.png';
 import Pokedex from '../assets/img/pokedex.png';
 import MovieApi from '../assets/img/movieapi.png';
 import MyFlix from '../assets/img/myflix.png';
 import Meet from '../assets/img/meet.png';
 import Angular from '../assets/img/angular.png';
+
 export const projects = [
   {
     title: 'To Do List App',
