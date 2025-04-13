@@ -16,7 +16,7 @@ import { MyFlixCaseStudy } from './components/work/myflixcasestudy';
 // Setting up the Portfolio component with routing and navigation
 const Portfolio = () => {
   return (
-    <Router>
+    <Router basename="/david-sokabi">
       <NavigationBar />
       <Container>
         <Routes>
