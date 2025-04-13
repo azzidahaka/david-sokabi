@@ -15,6 +15,8 @@
   --h-font-weight: 700;
   --button-color: #343a40;
   --form-color: #e9ecef;
+  overflow-x: hidden; // Prevent horizontal scrolling
+  // overflow-y: auto; // Allow vertical scrolling
 }
 
 body {
@@ -31,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow-x: hidden; // Prevent horizontal scrolling
-  overflow-y: auto; // Allow vertical scrolling
+  // overflow-y: auto; // Allow vertical scrolling
 }
 
 input,
@@ -71,6 +73,9 @@ h2 {
 }
 
 .navbar {
+  position: sticky;
+  top: 0; /* Sticks the navbar to the top of the viewport */
+  z-index: 1000;
   background-color: var(--background-header) !important;
 }
 
@@ -184,4 +189,3 @@ a:active {
   /* selected link */
   color: var(--selected-link);
 }
-

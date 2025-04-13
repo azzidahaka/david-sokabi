@@ -14,7 +14,6 @@ export const Work = () => {
     <Row
       id='work'
       className='section'>
-      {' '}
       <MotionDiv
         threshold={0.5} // Trigger when 50% of the element is visible
         initial={{ opacity: 0, x: '-20vw' }}
@@ -53,7 +52,7 @@ export const Work = () => {
               {project.title === 'MyFlix' && (
                 <>
                   <Button
-                    href='#myflix-case-study'
+                    href='myflix-case-study'
                     onClick={() => (window.location.href = '/myflixcasestudy')}>
                     View MyFlix Case Study
                   </Button>

@@ -12,9 +12,13 @@ import Auth from '../../assets/img/auth.png';
 import Large from '../../assets/img/large.png';
 import Mid from '../../assets/img/medium.png';
 import Small from '../../assets/img/small.png';
-import { NavigationBar } from '../navigationbar/navigationbar';
+import { useEffect } from 'react';
 import './myflixcasestudy.scss';
 export const MyFlixCaseStudy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
+
   return (
     <Container className='case-container'>
       <div className='case-study '>
