@@ -1,16 +1,11 @@
-body {
+.case-study body {
   background-color: #ffffff;
 }
-input,
-select,
-button {
-  font-family: system-ui;
-}
-h2 {
+.case-study h2 {
   text-align: center;
 }
-p,
-li {
+.case-study p,
+.case-study li {
   font-size: 1.2rem;
 }
 .case-container {
@@ -20,13 +15,13 @@ li {
   margin-bottom: 2%;
   background: #e9ecef;
 }
-.row {
+.case-study .row {
   margin-bottom: 20px;
 }
 
-.row img {
-  max-height: 400px;
-  margin: 20px;
+.case-study .row img {
+    max-height: 400px;
+    margin: 20px;
 }
 .case-study {
   margin: 2rem;
@@ -67,7 +62,7 @@ li {
   border-left: 4px solid #357b70;
   margin-bottom: 1rem;
 }
-.myflix img {
+.case-study .myflix img {
   max-width: 90%;
 }
 @media (max-width: 768px) {

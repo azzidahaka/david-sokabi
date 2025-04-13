@@ -13,11 +13,11 @@ export const About = () => {
         transition={{ duration: 0.4 }}>
         <h1 className='align-text fs-1 fw-bolder'>About Me</h1>
         <p className='align-text fs-5'>
-          I was born in Lagos, Nigeria, and i'm currently based in Canada. My journey into tech began at a
-          young age, sparked by a childhood fascination with the world of technology, especially after
-          watching <em>Spy Kids</em>. What started as curiosity quickly turned into a passion, and I decided
-          to explore this further when my brother introduced me to CorelDRAW and Python. The joy of creating
-          things with code ignited my enthusiasm, and I've been hooked ever since.
+          I was born in Lagos, Nigeria, and am currently based in Canada. My tech journey began at a young
+          age, sparked by a childhood fascination with the world of technology, especially after watching
+          <em>Spy Kids</em>. What started as a curiosity quickly turned into a passion, and I explored this
+          further when my brother introduced me to CorelDRAW and Python. The joy of creating things with code
+          ignited my enthusiasm, and I've been hooked ever since.
         </p>
       </MotionDiv>
       <MotionDiv

@@ -40,7 +40,7 @@ export const MyFlixCaseStudy = () => {
               </p>
             </Col>
             <Col
-              className='myflix  d-flex justify-content-center align-items-center'
+              className='myflix  d-flex'
               lg={7}
               md={7}>
               <img
