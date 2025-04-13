@@ -2,6 +2,7 @@
   "name": "david-sokabi",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://azzidahaka.github.io/portfolio",
   "dependencies": {
     "bootstrap": "^5.3.5",
     "emailjs-com": "^3.2.0",
@@ -40,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
