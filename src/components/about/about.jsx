@@ -1,9 +1,9 @@
-import { Row, Card, Button } from 'react-bootstrap';
+import { Row, Button } from 'react-bootstrap';
 import MotionDiv from '../MotionDiv';
 export const About = () => {
   return (
     <Row
-      id="about"
+      id='about'
       className='section about  justify-content-center align-items-center text-center '>
       <MotionDiv
         threshold={0.5} // Trigger when 20% of the element is visible

@@ -121,20 +121,6 @@ button {
   width: auto;
   align-self: flex-start;
 }
-// .navigation-list {
-//   display: flex;
-//   flex-wrap: wrap;
-//   width: auto;
-//   padding: 0;
-//   list-style: none;
-// }
-// .navigation-list__item {
-//   margin: 10px;
-//   text-decoration: none;
-//   color: var(--black);
-//   position: relative;
-//   white-space: nowrap;
-// }
 
 .section {
   min-height: calc(100vh - 75px);
@@ -143,30 +129,13 @@ button {
 
 .profile__portrait {
   width: 100%;
-  // margin-right: 40px;
   border-radius: 50%;
 }
 .intro {
   font-size: 1.4rem;
 }
-// .about {
-//   background-color: var(--background-header);
-//   padding:0 12px;
-//   border-radius: 5%;
-// }
 
-// .about p {
-//   font-size: 1.4rem; /* Adjust paragraph size */
-//   line-height: 1.6; /* Optional: Improve readability */
-// }
-
-.container {
-  background-color: var(--background-section);
-}
-
-/* grid fallback */
 .grid {
-  justify-items: center;
   padding: 20px;
 }
 .project {
@@ -178,14 +147,11 @@ button {
 }
 
 .project h2 {
-  // font-size: 2rem;
-  // font-weight: var(--h1-font-weight);
   color: white;
 }
 .project-img {
   max-width: 80%;
   height: 200px;
-  // justify-self: center;
 }
 
 //may have to set the positions as variables and set the variables depending on the size of screen
@@ -213,33 +179,6 @@ a:active {
   color: var(--selected-link);
 }
 
-/* Transformation to make the .navigation-list__item borders move outwards when hovered */
-// .nav-link::before,
-// .nav-link::after {
-//   position: absolute;
-//   left: 0px;
-//   width: 100%;
-//   height: 2px;
-//   background: white;
-//   opacity: 0;
-//   transition: all 0.3s;
-// }
-
-// .nav-link::before {
-//   top: 0px;
-//   transform: translateY(10px);
-// }
-
-// .nav-link::after {
-//   bottom: -2px;
-//   transform: translateY(-10px);
-// }
-
-// .nav-link:hover::before,
-// .nav-link:hover::after {
-//   opacity: 1;
-//   transform: translateY(0px);
-// }
 /* media queries for contact submit button for smallscreens
 * set dotenv for emailjs
 *dont forget tab pictures
