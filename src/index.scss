@@ -15,7 +15,7 @@
   --h-font-weight: 700;
   --button-color: #343a40;
   --form-color: #e9ecef;
-  overflow-x: hidden; // Prevent horizontal scrolling
+  // overflow-x: hidden; // Prevent horizontal scrolling
   // overflow-y: auto; // Allow vertical scrolling
 }
 
@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow-x: hidden; // Prevent horizontal scrolling
-  // overflow-y: auto; // Allow vertical scrolling
+ overflow-y: auto; // Allow vertical scrolling
 }
 
 input,
