@@ -47,7 +47,7 @@ export const projects = [
     image: MyFlix,
     alt: 'myFlix Client',
     description:
-      "myFlix-Client is a React application that lets users access information on movies so they can learn more about movies they've seen and movies they are interested in. The users can create an account and save data about their favorite movies, update their information and delete their accounts.",
+      "myFlix-Client is a React application that lets users access information on movies so they can learn more about movies they've seen and are interested in. Users can create accounts and save data about their favorite movies, update their information, and delete their accounts.",
     links: {
       github: 'https://github.com/azzidahaka/myFlix-client',
       liveDemo: 'https://myflixbyazzi.netlify.app/',
@@ -58,7 +58,7 @@ export const projects = [
     image: Meet,
     alt: 'Meet App',
     description:
-      'A serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events. Users are able to find events in their selected cities.',
+      'A serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events. Users can find events in their selected cities.',
     links: {
       github: 'https://github.com/azzidahaka/meet',
       liveDemo: 'https://azzidahaka.github.io/meet',

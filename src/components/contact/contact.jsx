@@ -176,8 +176,8 @@ export const Contact = () => {
           </Card>
         </Col>
       </MotionDiv>
-      <Row className='page-footer text-center'>
-        <p>Find me on</p>
+      <Row className='page-footer text-center mt-4'>
+        <h5>Find me on</h5>
         <div className='social-media'>
           <a
             href='https://github.com/azzidahaka'
@@ -198,7 +198,7 @@ export const Contact = () => {
             />
           </a>
           <a
-            href='https://www.linkedin.com/in/david-sokabi-30618aa5/'
+            href='https://www.linkedin.com/in/davidsokabi'
             target='_blank'
             rel='noreferrer'>
             <img

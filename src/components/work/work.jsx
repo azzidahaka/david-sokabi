@@ -20,7 +20,7 @@ export const Work = () => {
         inViewControl={{ opacity: 1, x: 0 }} // Slide in
         outViewControl={{ opacity: 0, x: '-10vw' }} // Slide out while partially visible
         transition={{ duration: 0.4 }}>
-        <h1 className='text-center'>Work</h1>
+        <h1 className='text-center mt-5'>Work</h1>
       </MotionDiv>
       {projects.map((project, idx) => (
         <Col
@@ -44,8 +44,18 @@ export const Work = () => {
             />
             <p className='fs-5'>{project.description}</p>
             <div className='vstack gap-1 align-items-center '>
-              <Button href={project.links.github}>See project on GitHub</Button>
-              <Button href={project.links.liveDemo}>Live Demo</Button>
+              <Button
+                href={project.links.github}
+                target='_blank'
+                rel='noreferrer'>
+                See project on GitHub
+              </Button>
+              <Button
+                href={project.links.liveDemo}
+                target='_blank'
+                rel='noreferrer'>
+                Live Demo
+              </Button>
               {project.title === 'myFlix-Client' && (
                 <Button onClick={() => navigate('/myflix-casestudy')}>Case Study</Button>
               )}

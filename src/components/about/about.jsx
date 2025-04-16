@@ -55,7 +55,7 @@ export const About = () => {
         transition={{ duration: 0.4 }}>
         <h2 className='align-text fs-2 fw-bolder'>My Approach to Work</h2>
         <p className='align-text fs-5'>
-          When it comes to my approach to work, I value collaboration and effective communication. I believe
+          I value collaboration and effective communication. I believe
           that the best results come from working together, sharing ideas, and supporting each other. This was
           a key aspect of my previous role as a Technical Advisor, where I worked closely with customers to
           solve problems and provide solutions. I’ve brought these skills into my development work, and they
@@ -82,7 +82,7 @@ export const About = () => {
         inViewControl={{ opacity: 1, x: 0 }} // Slide in
         outViewControl={{ opacity: 0, x: '-10vw' }} // Slide out while partially visible
         transition={{ duration: 0.4 }}>
-        <h2>Looking Ahead</h2>
+        <h2 className='align-text fs-2 fw-bolder'>Looking Ahead</h2>
         <p className='align-text fs-5'>
           As I continue to grow as a developer, I’m looking for opportunities that will challenge me, allow me
           to learn from talented teams, and enable me to contribute to impactful projects. Whether in a
