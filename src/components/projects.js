@@ -32,7 +32,8 @@ export const projects = [
       github: 'https://github.com/azzidahaka/pokedex',
       liveDemo: 'https://azzidahaka.github.io/pokedex/',
     },
-    case: 'false',
+    case: 'true',
+    caseLink: '/pokedex-casestudy',
   },
   {
     title: 'MyFlix API',

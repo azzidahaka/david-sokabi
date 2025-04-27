@@ -13,7 +13,7 @@ import Large from '../../assets/img/large.png';
 import Mid from '../../assets/img/medium.png';
 import Small from '../../assets/img/small.png';
 import { useEffect } from 'react';
-import './myflixcasestudy.scss';
+import './casestudy.scss';
 export const MyFlixCaseStudy = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top of the page
@@ -48,7 +48,7 @@ export const MyFlixCaseStudy = () => {
               </p>
             </Col>
             <Col
-              className='myflix  d-flex'
+              className='case  d-flex'
               lg={7}
               md={7}>
               <img
@@ -91,7 +91,7 @@ export const MyFlixCaseStudy = () => {
           <h2>Development & Challenges</h2>
           <h3>1. Backend Development: API & Authentication</h3>
           <ul>
-            <Row className='myflix hstack'>
+            <Row className='case hstack'>
               <Col
                 lg={4}
                 md={4}>
@@ -121,7 +121,7 @@ export const MyFlixCaseStudy = () => {
                 />
               </Col>
             </Row>
-            <Row className='myflix hstack'>
+            <Row className='case hstack'>
               <Col
                 lg={6}
                 md={6}>
@@ -140,7 +140,7 @@ export const MyFlixCaseStudy = () => {
                 </li>
               </Col>
             </Row>
-            <Row className='myflix hstack'>
+            <Row className='case hstack'>
               <Col>
                 <li>
                   <strong>Challenge:</strong> CORS issues between the frontend and the backend.

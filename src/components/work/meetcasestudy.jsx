@@ -7,8 +7,9 @@ import { Row, Col, Container } from 'react-bootstrap';
 import MeetAppImage from '../../assets/img/meet.png';
 import OAuthImage from '../../assets/img/oauth.png';
 import OfflineImage from '../../assets/img/offline.png';
-import ChartImage from '../../assets/img/chart.png';
-import './meetcasestudy.scss';
+import TestImage from '../../assets/img/test.png';
+//import './meetcasestudy.scss';
+import './casestudy.scss';
 
 export const MeetCaseStudy = () => {
   useEffect(() => {
@@ -46,7 +47,7 @@ export const MeetCaseStudy = () => {
               </p>
             </Col>
             <Col
-              className='meet-app d-flex'
+              className='case d-flex'
               lg={7}
               md={7}>
               <img
@@ -153,19 +154,19 @@ export const MeetCaseStudy = () => {
         <section>
           <h2>Key Features Delivered</h2>
           <ul>
-            <li>✅ Search for events by city</li>
-            <li>✅ Specify the number of events shown</li>
-            <li>✅ View event details (description, location, etc.)</li>
-            <li>✅ App works offline and can be installed on a device</li>
-            <li>✅ Secure authentication with Google OAuth</li>
-            <li>✅ Clean and tested codebase (unit, integration, and E2E tests)</li>
-            <li>✅ Event data visualization with charts</li>
+            <li>Search for events by city</li>
+            <li>Specify the number of events shown</li>
+            <li>View event details (description, location, etc.)</li>
+            <li>App works offline and can be installed on a device</li>
+            <li>Secure authentication with Google OAuth</li>
+            <li>Clean and tested codebase (unit, integration, and E2E tests)</li>
+            <li>Event data visualization with charts</li>
           </ul>
         </section>
 
         <section>
           <h2>Challenges & Solutions</h2>
-          <Row>
+          <Row className='case hstack'>
             <Col
               lg={6}
               md={6}>
@@ -186,7 +187,7 @@ export const MeetCaseStudy = () => {
               />
             </Col>
           </Row>
-          <Row>
+          <Row className='case hstack'>
             <Col
               lg={6}
               md={6}>
@@ -205,7 +206,7 @@ export const MeetCaseStudy = () => {
               </li>
             </Col>
           </Row>
-          <Row>
+          <Row className='case hstack'>
             <Col>
               <li>
                 <strong>Challenge:</strong> Writing tests before code (TDD learning curve)
@@ -218,8 +219,8 @@ export const MeetCaseStudy = () => {
               lg={6}
               md={6}>
               <img
-                src={ChartImage}
-                alt='Chart'
+                src={TestImage}
+                alt='test'
                 className='w-100 h-100'
               />
             </Col>
