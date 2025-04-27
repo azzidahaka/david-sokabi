@@ -6,8 +6,11 @@ import React, { useEffect } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import PokedexImage from '../../assets/img/pokedex.png';
 import SearchImage from '../../assets/img/search.png';
+import FetchImage from '../../assets/img/fetch.png';
 import ModalImage from '../../assets/img/modal.png';
+import SearchCodeImage from '../../assets/img/searchcode.png';
 import ResponsiveImage from '../../assets/img/responsive.png';
+import MobileImage from '../../assets/img/responsiveM.png';
 import './casestudy.scss';
 
 export const PokedexCaseStudy = () => {
@@ -84,36 +87,57 @@ export const PokedexCaseStudy = () => {
         <section>
           <h2>Development & Challenges</h2>
           <h3>1. Fetching Data & Dynamic UI</h3>
-          <Row className='case hstack'>
-            <Col
-              lg={6}
-              md={6}>
-              <li>
-                <strong>Challenge:</strong> Fetching and managing Pokémon data efficiently.
-                <br />
-                <strong>Solution:</strong> Used the PokéAPI to fetch data and dynamically generate UI elements
-                for each Pokémon.
-              </li>
-            </Col>
-            <Col
-              lg={6}
-              md={6}>
-              <img
-                src={SearchImage}
-                alt='Search Functionality'
-                className='w-100 h-100'
-              />
-            </Col>
-          </Row>
+          <ul>
+            <Row className='case hstack'>
+              <Col
+                lg={4}
+                md={4}>
+                <li>
+                  <strong>Challenge:</strong> Fetching and managing Pokémon data efficiently.
+                  <br />
+                  <strong>Solution:</strong> Used the PokéAPI to fetch data and dynamically generate UI
+                  elements for each Pokémon.
+                </li>
+              </Col>
+              <Col
+                lg={4}
+                md={4}>
+                <img
+                  src={SearchImage}
+                  alt='Load Pokemon'
+                  className='w-100 h-100'
+                />
+              </Col>
+              <Col
+                lg={4}
+                md={4}>
+                <img
+                  src={FetchImage}
+                  alt='Fetch Api'
+                  className='w-100 h-100'
+                />
+              </Col>
+            </Row>
+          </ul>
 
           <h3>2. Search & Modal Functionality</h3>
+          <ul>
           <Row className='case hstack'>
             <Col
-              lg={6}
-              md={6}>
+              lg={4}
+              md={4}>
               <img
                 src={ModalImage}
                 alt='Modal Details'
+                className='w-100 h-100'
+              />
+            </Col>
+            <Col
+              lg={4}
+              md={4}>
+              <img
+                src={SearchCodeImage}
+                alt='Search Code'
                 className='w-100 h-100'
               />
             </Col>
@@ -127,27 +151,38 @@ export const PokedexCaseStudy = () => {
               </li>
             </Col>
           </Row>
-
+          </ul>
           <h3>3. Responsive Design</h3>
-          <Row className='case hstack'>
-            <Col>
-              <li>
-                <strong>Challenge:</strong> Ensuring the app is usable on both desktop and mobile devices.
-                <br />
-                <strong>Solution:</strong> Used CSS media queries and Bootstrap grid system for responsive
-                layouts.
-              </li>
-            </Col>
-            <Col
-              lg={6}
-              md={6}>
-              <img
-                src={ResponsiveImage}
-                alt='Responsive Design'
-                className='w-100 h-100'
-              />
-            </Col>
-          </Row>
+          <ul>
+            <Row className='case hstack'>
+              <Col>
+                <li>
+                  <strong>Challenge:</strong> Ensuring the app is usable on both desktop and mobile devices.
+                  <br />
+                  <strong>Solution:</strong> Used CSS media queries and Bootstrap grid system for responsive
+                  layouts.
+                </li>
+              </Col>
+              <Col
+                lg={4}
+                md={4}>
+                <img
+                  src={ResponsiveImage}
+                  alt='Responsive Design'
+                  className='w-100 h-100'
+                />
+              </Col>
+              <Col
+                lg={4}
+                md={4}>
+                <img
+                  src={MobileImage}
+                  alt='Mobile Design'
+                  className='w-100 h-100'
+                />
+              </Col>
+            </Row>
+          </ul>
         </section>
 
         <section>

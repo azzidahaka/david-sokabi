@@ -166,6 +166,7 @@ export const MeetCaseStudy = () => {
 
         <section>
           <h2>Challenges & Solutions</h2>
+          <ul>
           <Row className='case hstack'>
             <Col
               lg={6}
@@ -225,6 +226,7 @@ export const MeetCaseStudy = () => {
               />
             </Col>
           </Row>
+          </ul>
         </section>
 
         <section>
