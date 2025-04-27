@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/david-sokabi/static/css/main.3b4b2d8a.css",
-    "main.js": "/david-sokabi/static/js/main.4f37eec3.js",
+    "main.css": "/david-sokabi/static/css/main.8c12795c.css",
+    "main.js": "/david-sokabi/static/js/main.5ee69dec.js",
     "static/media/IntroPic.jpg": "/david-sokabi/static/media/IntroPic.f955021f641395dcd842.jpg",
     "static/media/myflix.png": "/david-sokabi/static/media/myflix.785ead06a92418b25d86.png",
     "static/media/large.png": "/david-sokabi/static/media/large.208a3e122f9e5f8aecc3.png",
@@ -13,18 +13,27 @@
     "static/media/auth.png": "/david-sokabi/static/media/auth.364234e532b23ba7b698.png",
     "static/media/meet.png": "/david-sokabi/static/media/meet.20e7f874e002f0934417.png",
     "static/media/movieInfo.png": "/david-sokabi/static/media/movieInfo.aaf5f94e84063e7017c6.png",
+    "static/media/test.png": "/david-sokabi/static/media/test.d3f6d05fc5309e35fe23.png",
+    "static/media/search.png": "/david-sokabi/static/media/search.754d1cf796cdbea60fda.png",
     "static/media/userInfo.png": "/david-sokabi/static/media/userInfo.5822a218a4a46301a63d.png",
+    "static/media/searchcode.png": "/david-sokabi/static/media/searchcode.600cac5efb89300ab311.png",
+    "static/media/oauth.png": "/david-sokabi/static/media/oauth.3130583cc3db46664de4.png",
     "static/media/pokedex.png": "/david-sokabi/static/media/pokedex.29c5bdaf9bdc706f01a4.png",
+    "static/media/responsive.png": "/david-sokabi/static/media/responsive.08bf9f0bd859db407f85.png",
+    "static/media/responsiveM.png": "/david-sokabi/static/media/responsiveM.5c64d928cc1a543cdf30.png",
+    "static/media/modal.png": "/david-sokabi/static/media/modal.1b6b7ed6ca76631961be.png",
+    "static/media/fetch.png": "/david-sokabi/static/media/fetch.60a41dea9bbc1f5bf797.png",
     "static/media/todo.png": "/david-sokabi/static/media/todo.275e6d9b7596161006e0.png",
+    "static/media/offline.png": "/david-sokabi/static/media/offline.c79ef3a73ee7fa3d27b9.png",
     "static/media/github.svg": "/david-sokabi/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
     "index.html": "/david-sokabi/index.html",
     "static/media/linked-in.svg": "/david-sokabi/static/media/linked-in.55fb388c4c9df6986ca32fe64a60414a.svg",
     "static/media/x.svg": "/david-sokabi/static/media/x.6e8add35b83a0c2f6d02f0667f499083.svg",
-    "main.3b4b2d8a.css.map": "/david-sokabi/static/css/main.3b4b2d8a.css.map",
-    "main.4f37eec3.js.map": "/david-sokabi/static/js/main.4f37eec3.js.map"
+    "main.8c12795c.css.map": "/david-sokabi/static/css/main.8c12795c.css.map",
+    "main.5ee69dec.js.map": "/david-sokabi/static/js/main.5ee69dec.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b4b2d8a.css",
-    "static/js/main.4f37eec3.js"
+    "static/css/main.8c12795c.css",
+    "static/js/main.5ee69dec.js"
   ]
 }
