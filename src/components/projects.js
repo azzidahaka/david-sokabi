@@ -20,6 +20,7 @@ export const projects = [
       github: 'https://github.com/azzidahaka/To-Do-List-app',
       liveDemo: 'https://azzidahaka.github.io/To-Do-List-app/',
     },
+    case: 'false',
   },
   {
     title: 'Pokedex',
@@ -31,6 +32,7 @@ export const projects = [
       github: 'https://github.com/azzidahaka/pokedex',
       liveDemo: 'https://azzidahaka.github.io/pokedex/',
     },
+    case: 'false',
   },
   {
     title: 'MyFlix API',
@@ -41,6 +43,7 @@ export const projects = [
     links: {
       github: 'https://github.com/azzidahaka/movie_api',
     },
+    case: 'false',
   },
   {
     title: 'myFlix-Client',
@@ -52,6 +55,8 @@ export const projects = [
       github: 'https://github.com/azzidahaka/myFlix-client',
       liveDemo: 'https://myflixbyazzi.netlify.app/',
     },
+    case: 'true',
+    caseLink: '/myflix-casestudy',
   },
   {
     title: 'Meet App',
@@ -63,6 +68,9 @@ export const projects = [
       github: 'https://github.com/azzidahaka/meet',
       liveDemo: 'https://azzidahaka.github.io/meet',
     },
+
+    case: 'true',
+    caseLink: '/meet-casestudy',
   },
   {
     title: 'myFlix-Angular-client',
@@ -74,5 +82,6 @@ export const projects = [
       github: 'https://github.com/azzidahaka/myFlix-Angular-client',
       liveDemo: 'https://azzidahaka.github.io/myFlix-Angular-client/',
     },
+    case: 'false',
   },
 ];

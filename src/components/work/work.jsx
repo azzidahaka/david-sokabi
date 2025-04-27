@@ -56,14 +56,14 @@ export const Work = () => {
                 rel='noreferrer'>
                 Live Demo
               </Button>
-              {project.title === 'myFlix-Client' && (
-                <Button onClick={() => navigate('/myflix-casestudy')}>Case Study</Button>
+              {project.case === 'true' && (
+                <Button onClick={() => navigate(project.caseLink)}>Case Study</Button>
               )}
-              {project.title === 'MyFlix' && (
+              {project.case === 'MyFlix' && (
                 <>
                   <Button
                     href='myflix-case-study'
-                    onClick={() => (window.location.href = '/myflixcasestudy')}>
+                    onClick={() => (window.location.href = project.caseLink)}>
                     View MyFlix Case Study
                   </Button>
                   <Button href='#myflix-case-study'>Case Study</Button>

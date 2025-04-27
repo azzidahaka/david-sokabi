@@ -12,6 +12,7 @@ import { Contact } from './components/contact/contact';
 import { NavigationBar } from './components/navigationbar/navigationbar';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { MyFlixCaseStudy } from './components/work/myflixcasestudy';
+import MeetCaseStudy from './components/work/meetcasestudy';
 
 // Setting up the Portfolio component with routing and navigation
 const Portfolio = () => {
@@ -34,6 +35,10 @@ const Portfolio = () => {
           <Route
             path='/myflix-casestudy'
             element={<MyFlixCaseStudy />}
+          />
+            <Route
+            path='/meet-casestudy'
+            element={<MeetCaseStudy />}
           />
         </Routes>
       </Container>
